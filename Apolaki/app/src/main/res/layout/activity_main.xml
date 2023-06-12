@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="347dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/apolaki" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lora"
+        android:text="Herbal Encyclopedia at your pocket."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Search Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/search__inactive_" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="242dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Bookmark Button"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bookmark__inactive_" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="317dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="About Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/about__inactive_" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="240dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Encyclopedia Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/encyc_inactive_" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
+        android:layout_marginEnd="312dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Home Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/home__active_" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="188dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="453dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Headachee Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/headachee" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="188dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="271dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Headachee Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coldd" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="188dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="271dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Headachee Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coughh" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="188dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="89dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Headachee Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diabetess" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="188dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="89dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Headachee Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diarrheaa" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="188dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="453dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Headachee Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/feverr" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
