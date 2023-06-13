@@ -28,15 +28,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
+    <ImageView
+        android:id="@+id/bottombar"
+        android:layout_width="394dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bottommenu" />
+
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton7"
         android:layout_width="99dp"
         android:layout_height="92dp"
+        android:layout_marginStart="317dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="About Button"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/about__inactive_" />
+
+    <ImageButton
+        android:id="@+id/searchbtn"
+        android:layout_width="96dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="4dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="Search Button"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/search__inactive_" />
 
@@ -56,31 +84,16 @@
         app:srcCompat="@drawable/bookmark__inactive_" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="99dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="317dp"
-        android:backgroundTint="#00FFFFFF"
-        android:contentDescription="About Button"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/about__inactive_" />
-
-    <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="99dp"
         android:layout_height="92dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginEnd="240dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="218dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="Encyclopedia Button"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/encyc_inactive_" />
 
@@ -88,13 +101,13 @@
         android:id="@+id/imageButton5"
         android:layout_width="99dp"
         android:layout_height="92dp"
-        android:layout_marginEnd="312dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="290dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="Home Button"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/home__active_" />
 
@@ -120,14 +133,15 @@
         android:layout_width="188dp"
         android:layout_height="182dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="323dp"
         android:layout_marginEnd="189dp"
-        android:layout_marginBottom="271dp"
+        android:layout_marginBottom="280dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="Headachee Button"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/coldd" />
@@ -137,14 +151,15 @@
         android:layout_width="188dp"
         android:layout_height="182dp"
         android:layout_marginStart="189dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="323dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="271dp"
+        android:layout_marginBottom="280dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="Headachee Button"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/coughh" />
@@ -154,14 +169,15 @@
         android:layout_width="188dp"
         android:layout_height="182dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="514dp"
+        android:layout_marginTop="498dp"
         android:layout_marginEnd="189dp"
-        android:layout_marginBottom="89dp"
+        android:layout_marginBottom="105dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="Headachee Button"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/diabetess" />
@@ -171,14 +187,15 @@
         android:layout_width="188dp"
         android:layout_height="182dp"
         android:layout_marginStart="189dp"
-        android:layout_marginTop="514dp"
+        android:layout_marginTop="498dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="89dp"
+        android:layout_marginBottom="105dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="Headachee Button"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/diarrheaa" />
@@ -198,6 +215,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491"
         app:srcCompat="@drawable/feverr" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

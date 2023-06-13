@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Test"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".Search"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
